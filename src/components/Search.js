@@ -24,7 +24,7 @@ export const Search = () => {
       <input
         type="text"
         className="form-control"
-        placeholder="put nick"
+        placeholder="Search name"
         onKeyPress={onSubmit}
         value={value}
         onChange={(event) => setValue(event.target.value)}

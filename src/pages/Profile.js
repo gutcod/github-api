@@ -35,7 +35,7 @@ export const Profile = ({ match }) => {
   return (
     <Fragment>
       <Link to="/" className="btn btn-link">
-        На главную
+        to Home Page
       </Link>
       <div className="card mb-4">
         <div className="card-body">
